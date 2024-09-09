@@ -98,6 +98,15 @@ export default function ShoppingAction() {
                       )}
                     </p>
                   </div>
+                  <div>
+                    <Image
+                      src={product.image}
+                      width={80}
+                      height={80}
+                      alt={product.title}
+                      className=" rounded-lg"
+                    />
+                  </div>
                   <div className="flex items-center gap-x-1">
                     <button
                       type="button"
@@ -117,15 +126,6 @@ export default function ShoppingAction() {
                         <Minus />
                       )}
                     </button>
-                  </div>
-                  <div>
-                    <Image
-                      src={product.image}
-                      width={80}
-                      height={80}
-                      alt={product.title}
-                      className=" rounded-lg"
-                    />
                   </div>
                 </div>
               );
