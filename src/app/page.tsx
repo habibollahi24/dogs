@@ -8,7 +8,7 @@ import ProductsTools from '@/components/ProductsTools';
 
 export default async function HomePage() {
   return (
-    <div className="container mx-auto max-w-screen-lg mt-12">
+    <div className="container mx-auto max-w-screen-lg mt-4 md:mt-12">
       <Hero />
       <Features />
       <NewestProducts />
