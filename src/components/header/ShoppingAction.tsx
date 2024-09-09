@@ -79,26 +79,26 @@ export default function ShoppingAction() {
               return (
                 <div
                   key={product.id}
-                  className="flex items-center justify-between border-b py-4 p-2 text-sm"
+                  className="flex items-center justify-between border-b py-4 p-2 text-xs"
                 >
-                  <div className="w-[100px]">
+                  <div className="w-[100px] font-semibold">
                     {product.title}
                     <br />
                     {product.weight}
                     <br />
                   </div>
                   <div>
-                    <p className=" font-bold">
+                    <p className=" text-gray-700">
                       تعداد :{product.quantity}
                     </p>
-                    <p className=" font-bold">
+                    <p className=" text-gray-700">
                       قیمت :
                       {Intl.NumberFormat('fa').format(
                         Number(+product.price * product.quantity)
                       )}
                     </p>
                   </div>
-                  <div className="flex items-center gap-x-2">
+                  <div className="flex items-center gap-x-1">
                     <button
                       type="button"
                       onClick={() => handleAdToCart(product)}
@@ -121,8 +121,8 @@ export default function ShoppingAction() {
                   <div>
                     <Image
                       src={product.image}
-                      width={100}
-                      height={100}
+                      width={80}
+                      height={80}
                       alt={product.title}
                       className=" rounded-lg"
                     />
