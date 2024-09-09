@@ -58,7 +58,7 @@ export default function ShoppingAction() {
           </div>
         </DrawerTrigger>
         <DrawerContent className=" w-full max-h-[calc(100vh-10px)] md:w-1/2 mx-auto ">
-          <div className="mx-auto w-full p-6 overflow-auto max-h-[calc(100vh-50px)]">
+          <div className="mx-auto w-full md:p-6 overflow-auto max-h-[calc(100vh-50px)]">
             <DrawerHeader>
               <DrawerTitle className="text-center">
                 سبد خرید شما😍

@@ -33,7 +33,7 @@ export default function AddToCartBtn({
     <div>
       <button
         onClick={() => handleAddToCart(product)}
-        className="flex items-center justify-center gap-x-1 bg-blueBrand text-white px-2 md:px-4 py-1 rounded-lg mx-auto  text-sm font-semibold group-hover:bg-orangeBrand transition-all ho"
+        className="flex items-center justify-center gap-x-1 bg-blueBrand text-white px-2 md:px-4 py-1 rounded-lg mx-auto whitespace-nowrap text-sm font-semibold group-hover:bg-orangeBrand transition-all ho"
       >
         <PlusSquare />
         افزودن به سبد خرید
