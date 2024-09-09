@@ -33,7 +33,7 @@ export default function AddToFavariteBtn({
       <Heart
         onClick={() => AddToFavariteBtn(product)}
         className={cn(
-          'absolute text-red-500 hover:-translate-y-1 transition-all',
+          'absolute z-30 text-red-500 hover:-translate-y-1 transition-all',
           red ? 'fill-red-500' : ''
         )}
       />
